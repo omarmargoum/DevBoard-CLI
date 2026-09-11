@@ -64,6 +64,45 @@ for (const technology of technologies) {
 
 console.log("");
 console.log(`Technos : ${technologies.join(", ")}`); */
+/* interface DevProfile {
+  name: string;
+  city: string;
+  experienceYears: number;
+  available: boolean;
+  weeklyHours: number;
+  technologies: string[];
+}
+
+const currentYear: number = 2026;
+const startYear: number = 2024;
+
+const experienceYears: number = currentYear - startYear;
+
+const technologies: string[] = [
+  "TypeScript",
+  "Node.js",
+  "Git"
+];
+
+technologies.push("PostgreSQL");
+
+const profile: DevProfile = {
+  name: "Omar Margoum",
+  city: "Verviers",
+  experienceYears,
+  available: true,
+  weeklyHours: 12,
+  technologies
+};
+
+console.log("=== DEVBOARD CLI ===");
+console.log(`Nom         : ${profile.name}`);
+console.log(`Ville       : ${profile.city}`);
+console.log(`Expérience  : ${profile.experienceYears} ans`);
+console.log(`Disponible  : ${profile.available ? "oui" : "non"}`);
+console.log(`Charge      : ${profile.weeklyHours} h/semaine`);
+console.log(`Technos     : ${profile.technologies.join(", ")}`);
+console.log("===================="); */
 interface DevProfile {
   name: string;
   city: string;
